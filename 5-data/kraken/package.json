@@ -1,0 +1,21 @@
+{
+  "name": "e2eghost-kraken",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cross-fetch": "^3.1.6",
+    "kraken-node": "^1.0.24"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.1",
+    "cucumber": "^6.0.7"
+  },
+  "description": ""
+}
