@@ -1,0 +1,11 @@
+{
+  "url": "http://localhost:3001/ghost",
+  "headless": false,
+  "depthLevels": 2,
+  "inputValues": true,
+  "values": {
+    "ember10": "3216549870",
+    "ember8": "o.buitragov@uniandes.edu.co"
+  },
+  "browsers": ["chromium"]
+}
