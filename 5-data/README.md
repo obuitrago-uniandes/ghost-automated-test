@@ -143,8 +143,8 @@ Para el caso de Kraken se llevaron a cabo 20 escenarios 7 escenarios con la estr
 
 ## Pasos para ejecutar Cypress
 
-Las instrucciones para ejecutar cypress se encuentran en [En el siguiente enlace](https://github.com/obuitrago-uniandes/ghost-e2e-data/tree/main/cypress)
+Las instrucciones para ejecutar cypress se encuentran en [el siguiente enlace](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/5-data/cypress)
 
 ## Pasos para ejecutar Kraken
 
-Las instrucciones para ejecutar kraken se encuentran en [el siguiente enlace](https://github.com/obuitrago-uniandes/ghost-e2e-data/tree/main/kraken)
+Las instrucciones para ejecutar kraken se encuentran en [el siguiente enlace ](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/5-data/kraken)
