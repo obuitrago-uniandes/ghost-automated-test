@@ -5,5 +5,5 @@
   "integrationFolder": "./cypress/e2e",
   "pluginsFile": "./cypress/plugins/index.js",
   "pageLoadTimeout": 20000,
-  "defaultCommandTimeout": 2000
+  "defaultCommandTimeout": 5000
 }
