@@ -8,7 +8,7 @@
 | "Walter Giovanny Cuadros Rincon" <w.cuadrosr@uniandes.edu.co> |
 | "Oscar Andre Buitrago Villamil" <o.buitragov@uniandes.edu.co> |
 
-# Índice de Tecnicas vistas
+## Índice de Tecnicas vistas
 
 | Técnica                                                         |
 | --------------------------------------------------------------- |
