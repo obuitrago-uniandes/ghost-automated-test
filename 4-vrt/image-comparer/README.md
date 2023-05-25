@@ -27,6 +27,3 @@ Tenga en cuenta que el comando puede variar si no usa sistemas basados en unix a
 ```shell
 node index.js ..\Ghost_5.47.0 ..\Ghost_3.41.1
 ```
-
-Al finalizar el comando debería retornar algo como
-
