@@ -1,12 +1,5 @@
 # Pruebas e2e en Ghost 3.41.1
 
-## Equipo 20
-|Integrantes|
-|-|
-|"Mery Alejandra Niño Gomez" <ma.ninog12@uniandes.edu.co>|
-|"Walter Giovanny Cuadros Rincon" <w.cuadrosr@uniandes.edu.co>|
-|"Oscar Andre Buitrago Villamil" <o.buitragov@uniandes.edu.co>|
-
 ## Funcionalidades bajo prueba
 | Funcionalidad |
 | -- |
@@ -46,14 +39,14 @@
 
 ## Pasos para ejecutar Kraken
 
-Las instrucciones para ejecutar kraken para versión 3.41.1 se encuentran en [el siguiente enlace](./tree/main/Ghost_3.41.1/kraken/README.md)
-Las instrucciones para ejecutar kraken para versión 5.47.0 se encuentran en [el siguiente enlace](./tree/main/Ghost_5.47.0/kraken/README.md)
+Las instrucciones para ejecutar kraken para versión 3.41.1 se encuentran en [el siguiente enlace](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/4-vrt/Ghost_3.41.1/kraken)
+Las instrucciones para ejecutar kraken para versión 5.47.0 se encuentran en [el siguiente enlace](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/4-vrt/Ghost_5.47.0/kraken)
 
 ## Pasos para ejecutar Cypress
 
-Las instrucciones para ejecutar cypress para versión 3.41.1 se encuentran en [el siguiente enlace](./tree/main/Ghost_3.41.1/cypress/README.md)
-Las instrucciones para ejecutar cypress para versión 5.47.0 se encuentran en [el siguiente enlace](./tree/main/Ghost_5.47.0/cypress/README.md)
+Las instrucciones para ejecutar cypress para versión 3.41.1 se encuentran en [el siguiente enlace](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/4-vrt/Ghost_3.41.1/cypress)
+Las instrucciones para ejecutar cypress para versión 5.47.0 se encuentran en [el siguiente enlace](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/4-vrt/Ghost_5.47.0/cypress)
 
 ## Pasos para ejecutar el comparador de imágenes
 
-Los pasos para ejecutar el comparador de imágenes se encuentan en [el siguiente enlace](./tree/main/image-comparer/README.md)
+Los pasos para ejecutar el comparador de imágenes se encuentan en [el siguiente enlace](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/4-vrt/image-comparer)

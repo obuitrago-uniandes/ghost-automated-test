@@ -1,4 +1,4 @@
-# Instrucciones para ejecutar Cypress
+# Instrucciones para ejecutar el comparador de imágenes
 
 ## Requisitos
 
