@@ -45,6 +45,9 @@ class PageSection extends Page {
   get settingsButton(){
     return this.driver.$(".view-actions").$("button[title='Settings']");
   }
+  get previewButton(){
+    return this.driver.$(".post-view-link");
+  }
   get textAreaExcerpt() {
     return this.driver.$(".post-setting-custom-excerpt")
   }
@@ -59,6 +62,12 @@ class PageSection extends Page {
   }
   get dateInput() {
     return this.driver.$(".gh-date-time-picker-date input")
+  }
+  get cardHtml() {
+    return this.driver.$("div=Insert a raw HTML card");
+  }
+  get textAreaHtml() {
+    return this.driver.$(".koenig-editor").$('.CodeMirror-code')
   }
   get searchAlertUrl(){
     const select = `span=No provider found for supplied URL.`

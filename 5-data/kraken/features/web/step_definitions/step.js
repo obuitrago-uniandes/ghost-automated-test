@@ -42,6 +42,9 @@ When("I enter title large page", async function () {
 When("I enter title large page ap", async function () {
   return await this.pageSection.titlePage.setValue(this.data_apriori_page[this.index].title_large);
 });
+When("I enter title page html", async function () {
+  return await this.pageSection.titlePage.setValue(this.data_apriori_page[99].title);
+});
 When("I click on content", async function () {
   return await this.pageSection.contentPage.click();
 });
@@ -53,6 +56,9 @@ When("I enter content ap", async function () {
 });
 When("I enter content fk", async function () {
   return await this.pageSection.contentPage.setValue(this.faker.lorem.words({min:5, max:10}));
+});
+When("I enter embed image", async function () {
+  return await this.pageSection.contentPage.setValue(this.data_apriori_page[98].image);
 });
 When("I click on publish", async function () {
   return await this.pageSection.publishButton.click();
@@ -116,6 +122,12 @@ When("I enter date invalid ap", async function () {
 When("I enter date invalid fk", async function () {
   return await this.pageSection.dateInput.setValue(this.faker.lorem.word());
 });
+When("I select html option", async function () {
+  return await this.pageSection.cardHtml.click();
+});
+When("I enter html", async function () {
+  return await this.pageSection.textAreaHtml.setValue(this.data_apriori_page[99].html);
+});
 Then('I see that the  alert url is liked in  page', async function () {
   let elements = await this.pageSection.searchAlertUrl
   expect(elements.length).to.equal(1);
@@ -130,4 +142,7 @@ Then('I see that the alert time is invalid is liked in list page', async functio
 });
 When("I click on settings", async function () {
   return await this.pageSection.settingsButton.click();
+});
+When("I click on preview page", async function () {
+  return await this.pageSection.previewButton.click();
 });
