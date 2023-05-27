@@ -238,4 +238,66 @@ context("Navigation", () => {
     cy.go(-1);
   });
 
+  it("Scenario Ingresar titulo valido y un embed image url", () => {
+    //When I go section pages
+    adminPage.clickPageBtn();
+    //And Igo to Create Page
+    pageManage.createButton();
+    //And I click in title
+    pageManage.titlePage();
+    //And I clik in content
+    pageManage.contentPage();
+    //And I go section pages
+    cy.go(-1);
+    cy.wait(500);
+    //And I select draft page
+    pageManage.selectPage("(Untitled)");
+    //And I enter title
+    pageManage.fillTitlePage(poolData[98].title);
+    //And I click  content
+    pageManage.contentPage();
+    //And I enter contet
+    pageManage.fillEmbedPage(poolData[98].image);
+    //And I click in publish
+    pageManage.publishButton();
+    cy.wait(4000);
+    //And click in publish now
+    pageManage.publishNowButton();
+    //And I see that the "Published" is liked in list page
+    pageManage.searchPublished("Published", 1);
+    cy.wait(1000);
+    cy.go(-1);
+  }); 
+
+  it("Scenario Ingresar titulo valido y un embed youtube url", () => {
+    //When I go section pages
+    adminPage.clickPageBtn();
+    //And Igo to Create Page
+    pageManage.createButton();
+    //And I click in title
+    pageManage.titlePage();
+    //And I clik in content
+    pageManage.contentPage();
+    //And I go section pages
+    cy.go(-1);
+    cy.wait(500);
+    //And I select draft page
+    pageManage.selectPage("(Untitled)");
+    //And I enter title
+    pageManage.fillTitlePage(poolData[97].title);
+    //And I click  content
+    pageManage.contentPage();
+    //And I enter contet
+    pageManage.fillEmbedPage(poolData[97].video);
+    //And I click in publish
+    pageManage.publishButton();
+    cy.wait(4000);
+    //And click in publish now
+    pageManage.publishNowButton();
+    //And I see that the "Published" is liked in list page
+    pageManage.searchPublished("Published", 1);
+    cy.wait(1000);
+    cy.go(-1);
+  }); 
+
 });

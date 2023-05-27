@@ -8,6 +8,7 @@ class PageManage {
     contentPage(){
         return cy.get("div[data-kg='editor-wrapper']").click({ force: true });
     }
+    
     selectPage(value){
         return cy.contains("a[title='Edit this page']", value ).click({ force: true });
     }
@@ -21,6 +22,12 @@ class PageManage {
     fillContentPage(value){
         const field =  cy.get(`div[data-kg='editor-wrapper']`);
         field.type(value);
+        return this;
+    }
+    fillEmbedPage(value){
+        const field =  cy.get(`div[data-kg='editor-wrapper']`);
+        field.type(value);
+        field.type('{enter}')
         return this;
     }
 
@@ -47,6 +54,9 @@ class PageManage {
     }
     settingsButton(){
         return cy.get(".post-settings").click({ force: true });
+    }
+    addImage(){
+        return cy.get('input[type=file]').selectFile('page_image.jpg', { force: true });
     }
     inputPageUrl(value){
         return cy.get(".post-setting-slug").type(value);
