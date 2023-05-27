@@ -21,3 +21,7 @@
 ## Pros y contras de las herramientas usadas
 
 Puede ver los pros y contras [aquí](https://github.com/obuitrago-uniandes/ghost-automated-test/wiki/Pros-y-contras-de-las-herramientas-usadas)
+
+## Inventario de pruebas exploratorias
+
+Encuentra el listado completo de las pruebas exploratorias aquí [InventarioPruebasExploratorias.xlsx](https://github.com/obuitrago-uniandes/ghost-automated-test/files/11580788/InventarioPruebasExploratorias.xlsx)
