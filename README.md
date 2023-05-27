@@ -30,3 +30,7 @@ Puede ver los pros y contras [aquí](https://github.com/obuitrago-uniandes/ghost
 ## Inventario de pruebas exploratorias
 
 Encuentra el listado completo de las pruebas exploratorias aquí [InventarioPruebasExploratorias.xlsx](https://github.com/obuitrago-uniandes/ghost-automated-test/files/11580788/InventarioPruebasExploratorias.xlsx)
+
+## Video 
+
+[Enlace al video](https://uniandes-my.sharepoint.com/:v:/g/personal/o_buitragov_uniandes_edu_co/Ef7heQeNTwJMpYndyPrTN1oB85QTxe6knKoR0bzDkENW6w?e=J1hffQ)
