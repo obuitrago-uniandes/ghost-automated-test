@@ -17,3 +17,7 @@
 | [Pruebas automatizadas E2E](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/3-e2e) |
 | [Pruebas automatizadas E2E con VRT](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/4-vrt) |
 | [Pruebas automatizadas E2E con escenarios de generación de datos](https://github.com/obuitrago-uniandes/ghost-automated-test/tree/main/5-data) |
+
+## Pros y contras de las herramientas usadas
+
+Puede ver los pros y contras [aquí](https://github.com/obuitrago-uniandes/ghost-automated-test/wiki/Pros-y-contras-de-las-herramientas-usadas)
