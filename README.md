@@ -8,6 +8,11 @@
 | "Walter Giovanny Cuadros Rincon" <w.cuadrosr@uniandes.edu.co> |
 | "Oscar Andre Buitrago Villamil" <o.buitragov@uniandes.edu.co> |
 
+## Estrategias de pruebas
+
+[Estrategias de Pruebas Final.pdf](https://github.com/obuitrago-uniandes/ghost-automated-test/files/11580980/Estrategias.de.Pruebas.Final.pdf)
+
+
 ## Índice de Tecnicas vistas
 
 | Técnica                                                         |
